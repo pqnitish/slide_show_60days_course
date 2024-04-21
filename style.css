@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  #slide-container {
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+  .arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+    padding: 8px 20px;
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  .next {
+    right: 10px;
+  }
+  .slide {
+    height: 60%;
+    width: 100%;
+    display: none;
+  }
+  .toggleBtn {
+    cursor: pointer;
+    padding: 10px 20px;
+    position: absolute;
+    top: 53%;
+    right: 50%;
+    background-color: transparent;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+  }
